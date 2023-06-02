@@ -1,0 +1,310 @@
+body{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  background: linear-gradient(45deg, #f018a8, #32045e);
+  
+  margin: auto;
+  height: 600px; 
+  width: 500px; 
+  border-radius: 7px;
+}
+
+.formulario{
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.formulario h1{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+.formulario p{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+
+.input{
+  width: 300px;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  
+}
+
+.input-container{
+  position: relative;
+}
+
+.icon-container{
+  position: absolute;
+  right: 10px;
+  top: -27px;
+  font-size: 18px;
+  color: blue;
+}
+
+.icon-container2{
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  font-size: 18px;
+  color: blue;
+}
+
+.icon-container3{
+  position: absolute;
+  right: 160px;
+  top: -34px;
+  font-size: 20px;
+  color: blue;
+}
+
+.icon-container4{
+  position: absolute;
+  color: white;
+  right: 120px;
+  top: 27px;
+  font-size: 60px;
+}
+
+.btn{
+  margin-top: 40px;
+  width: 160px;
+  height: 50px;
+  background: white;
+  border: white;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: rgb(34, 31, 31);
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.search-icon3:hover{
+  cursor: pointer;
+}
+
+
+
+container{
+  display: flex;
+  justify-content: center;
+}
+
+content{
+  position: relative;
+  width: 400px;
+  height: 450px;
+  top: 100px;
+  box-shadow:-2px 3px 4px hwb(0 0% 100% / 0.2);
+  font-family: sans-serif;
+  margin-top: 100px;
+  
+}
+.body{
+  margin-top: 100px;
+}
+.diviconesignin{
+  position: absolute;
+}
+
+.icone_singnin{
+  position:relative
+}
+
+.search-login{
+  font-size: 30px;
+  color: blue;
+  padding-left: 160px;
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.search-login p,h1{
+  margin: 0;
+  padding: 0;
+}
+
+.area_login{
+  padding-left: 40px;
+  text-align: left;
+  margin: auto;
+}
+
+
+
+.area_login h1, p {
+  text-align: center;
+}
+
+.area_login input{
+  width: 280px;
+  height: 30px;
+  border: none;
+  background: hsla(0, 4%, 81%, 0.582);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #f018a8, #32045e);
+  background-size: 100% 2px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.area_login input:focus{
+  border: 1px;
+  outline: none;
+
+}
+
+.content-input p{
+  text-align: left;
+  font-size: 14px;
+}
+
+.container_profile{
+  position: absolute;
+}
+
+.container_iconprofile{
+  position: relative;
+  top: -24px;
+  right: -258px;
+  color: rgba(0, 0, 255, 0.726);
+}
+
+.icon-eye{
+  cursor: pointer;
+}
+
+.checkbox{
+  display: flex;
+  align-items: last baseline;
+  position: relative;
+  left: -16px;
+  
+}
+
+.checkbox a{
+  font-size: 14px;
+  padding-left: 50px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.checkbox a:hover{
+  color: black;
+}
+
+.checkbox input{
+  width: 40px;
+  height: 15px;
+}
+
+.btn-login{
+  padding-top: 10px;
+}
+
+.btn-login button{
+  width: 150px;
+  height: 50px;
+  background: rgba(0, 0, 255, 0.829);
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.div_arrowsignin{
+  position: absolute;
+}
+
+.arrow_signin{
+  position: relative;
+  right: -116px;
+  top: -35px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+  
+@media (max-width:575.98px){
+  container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  content{
+    padding-bottom: 100px;
+    box-shadow: none;
+ }
+
+  .area_login{
+    padding-left: 150px;
+  }
+
+  .search-login{
+    display: none;
+  }
+  
+}
+
+
+@media (min-width: 576px) and (max-width:767.98px){
+  
+  container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  content{
+    padding-bottom: 100px;
+    box-shadow: none;
+ }
+
+  .area_login{
+    padding-left: 150px;
+  }
+
+  .search-login{
+    display: none;
+  }
+
+  
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width:991.98px) { 
+  
+  .search-login{
+    display: none;
+  }
+
+
+}
+
+
+
+
